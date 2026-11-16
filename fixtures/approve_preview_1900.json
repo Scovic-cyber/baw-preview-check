@@ -1,0 +1,41 @@
+{
+ "success": true,
+ "data": {
+  "requestId": "5cf43afa32cb484384dfe668843bb4ec",
+  "parsedTx": {
+   "transactionType": "ApproveNft",
+   "contractAddress": "0xf9D00B7a2992de00EBc5F9f04BAf95d44C542102",
+   "transactionTypeTranslationKey": null,
+   "tokenId": "1900",
+   "spender": "0xa044dd51f09a3d527b6bfcb4528095b647e4dd55"
+  },
+  "simulationResult": {
+   "gasTokenFromData": 0,
+   "balanceChanges": [],
+   "simulationErrorDetail": null,
+   "simulationCode": "000000000",
+   "preCheckCode": "",
+   "authorityChanges": [],
+   "allowanceChanges": [
+    {
+     "tokenAddress": "0xf9d00b7a2992de00ebc5f9f04baf95d44c542102",
+     "owner": "0x9c3cf8bf5fbad888a0b7faed16313284061fe790",
+     "spender": "0xa044dd51f09a3d527b6bfcb4528095b647e4dd55",
+     "preAmount": null,
+     "postAmount": 1,
+     "tokenType": "Erc721",
+     "tokenId": "0x000000000000000000000000000000000000000000000000000000000000076c"
+    }
+   ]
+  },
+  "risks": {
+   "addresses": {},
+   "riskDetails": [],
+   "riskBehaviors": []
+  },
+  "tokenInfos": {},
+  "requireConfirmation": false,
+  "expiresAt": 1794334644000,
+  "gasLimit": null
+ }
+}
